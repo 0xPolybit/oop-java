@@ -15,28 +15,36 @@
 
 ## Installation
 
-1. Make sure that a C compiler is installed in your system. We recommend either MinGW or MSYS2. After installation, check if the `gcc` and `g++` commands work in your system.
+1. Install the Java Development Kit (JDK). Either OpenJDK or Oracle JDK is fine. After installation, verify the installation by running:
 
-2. Clone the repository by either:
-    - Using the git command (make sure you have a modern version of Git SCM installed in your system).
+```bash
+java -version
+javac -version
+```
+
+2. Clone this repository by either:
+    - Using Git (make sure you have a modern version of Git installed):
+
     ```bash
-    git clone https://github.com/PolybitRockzz/dsa-c.git
+    git clone https://github.com/PolybitRockzz/oop-java.git
     ```
-    - Downloading the .ZIP file and unpacking it in your system.
 
-## Suggestions: C Programming Tutorials
+    - Or download the repository as a ZIP file and unpack it locally.
 
-Here are some good suggestions for learning the entirety of the C programming language, within a couple of hours.
+## Suggestions: Java Programming Tutorials
+
+If you're learning Java or want a quick refresher, these resources are helpful.
 
 ### YouTube Tutorials
 
-- C Programming Tutorial for Beginners - FreeCodeCamp - 17M Views ([here](https://www.youtube.com/watch?v=KJgsSFOSQv0))
-- C Programming Full Course for free ⚙️ (2025) - Bro Code - 347K Views ([here](https://www.youtube.com/watch?v=xND0t1pr3KY))
+- Java Programming — Full Course (freeCodeCamp): a comprehensive video course covering Java basics to intermediate topics.
+- Java Tutorial for Beginners (Programming with Mosh): concise, practical introductions to core Java concepts.
 
-### Articles / Blog Tutorials
+### Articles / Documentation
 
-- C Tutorial - W3Schools ([here](https://www.w3schools.com/c/))
-- C Programming - Jyotiprakash's Blog ([here](https://blog.jyotiprakash.org/c-programming))
+- Official Oracle Java Tutorials: the authoritative resource for Java language and standard libraries.
+- W3Schools Java Tutorial: quick reference and examples for Java basics.
+- GeeksforGeeks Java Topics: many short articles and examples for common Java problems.
 
 ## Code Directory
 
@@ -44,23 +52,13 @@ This repository contains the source code for both practice problems and lab assi
 
 #### Practice Problems
 
-- [Basics](./practice/basics/)
-- [Arrays](./practice/arrays/)
-- [Linked Lists](./practice/linkedlists/)
-- [Stacks](./practice/stacks/)
-- [Queues](./practice/queues/)
-- [Trees](./practice/trees/)
+- [Practice](./practice/)
 
 #### Lab Assignments
 
-- [Module 1](./lab/module1/)
-- [Module 2](./lab/module2/)
-- [Module 3](./lab/module3/)
-- [Module 4](./lab/module4/)
-- [Module 5](./lab/module5/)
-- [Module 6](./lab/module6/)
-- [Module 7](./lab/module7/)
-- [Module 8](./lab/module8/)
+- [Day 1](./lab/day1/)
+- [Day 2](./lab/day2/)
+- [Day 3](./lab/day3/)
 
 ## Contributors
 
