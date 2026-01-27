@@ -30,9 +30,7 @@ class University {
         Department dept = new Department(deptName, hodName);
         dept.display();
     }
-}
 
-public class UniversityDemo {
     public static void main(String[] args) {
         University uni = new University("KIIT University", "Bhubaneswar");
         uni.createDepartment("Computer Science", "Dr. A. Kumar");
