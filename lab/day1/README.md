@@ -1,4 +1,4 @@
-# Day 1 Programs
+# Day 1: Introduction to Java
 
 ## [Question 1](./StudentDemo.java)
 
