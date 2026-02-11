@@ -56,9 +56,14 @@ This repository contains the source code for both practice problems and lab assi
 
 #### Lab Assignments
 
-- [Day 1](./lab/day1/)
-- [Day 2](./lab/day2/)
-- [Day 3](./lab/day3/)
+- [Day 1: Introduction to Java](./lab/day1/)
+- [Day 2: Java Programming Basics](./lab/day2/)
+- [Day 3: Inheritance Basics](./lab/day3/)
+- [Day 4: Dynamic Method Invocation, Abstract Class & equals() Method Usage](./lab/day4/)
+- [Day 5: Interface](./lab/day5/)
+- [Day 6: Packages & Nested/Inner Classes](./lab/day6/)
+- [Day 7: Exception Handling](./lab/day7/)
+- [Day 8: String Handling](./lab/day8/)
 
 ## Contributors
 
