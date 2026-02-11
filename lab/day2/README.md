@@ -1,4 +1,4 @@
-# Day 2 Programs
+# Day 2: Java Programming Basics
 
 ## [Question 1](./EvenOddCounter.java)
 
