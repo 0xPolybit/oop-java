@@ -64,6 +64,7 @@ This repository contains the source code for both practice problems and lab assi
 - [Day 6: Packages & Nested/Inner Classes](./lab/day6/)
 - [Day 7: Exception Handling](./lab/day7/)
 - [Day 8: String Handling](./lab/day8/)
+- [Day 9: File Handling](./lab/day9/)
 
 ## Contributors
 
