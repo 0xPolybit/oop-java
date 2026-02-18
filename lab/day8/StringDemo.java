@@ -104,16 +104,29 @@ public class StringDemo {
 
     static void countStats(String str) {
         int words = 0, vowels = 0, consonants = 0;
-        String trimmed = str.trim();
-        if (!trimmed.isEmpty()) {
-            words = trimmed.split("\\s+").length;
-        }
-        for (char c : str.toLowerCase().toCharArray()) {
-            if (c >= 'a' && c <= 'z') {
-                if ("aeiou".indexOf(c) != -1) vowels++;
-                else consonants++;
+        boolean inWord = false;
+        
+        for (char c : str.toCharArray()) {
+            if (c == ' ' || c == '\t' || c == '\n') {
+                inWord = false;
+            } else {
+                if (!inWord) {
+                    words++;
+                    inWord = true;
+                }
             }
         }
+        
+        for (char c : str.toLowerCase().toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                if ("aeiou".indexOf(c) != -1) {
+                    vowels++;
+                } else {
+                    consonants++;
+                }
+            }
+        }
+        
         System.out.println("No. of words: " + words);
         System.out.println("No. of vowels: " + vowels);
         System.out.println("No. of consonants: " + consonants);
